@@ -1,0 +1,26 @@
+1. go to your directory
+2. paste the file you want to add to the repo in repo directory
+
+AnnaPC@ANNAPC-VAIO /C/Users/AnnaPC/Documents/anna/Coursera/test repo/test-repo (master)
+3. check status
+$ git status
+4. git add RegressionModels.R
+5. check status again
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   RegressionModels.R
+
+
+AnnaPC@ANNAPC-VAIO /C/Users/AnnaPC/Documents/anna/Coursera/test repo/test-repo (master)
+6. make some notes about file you want to add
+
+$ git commit -m "Add Regression Models file from R course"
+[master 5b04a91] Add Regression Models file from R course
+
+7. push your code to master
+$ git push
